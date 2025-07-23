@@ -1,0 +1,20 @@
+.room-container{
+  padding: 2rem;
+  text-align: center;
+  background-color: #eaf6f7;
+  
+}
+.room-container h1{
+    font-family:serif;
+    
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* justify-content: center; */
+  gap: 5rem;
+  /* flex-wrap: wrap; */
+  justify-items: center;
+  margin-top: 2rem;
+}

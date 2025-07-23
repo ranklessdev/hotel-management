@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-section-background{
+  background-color: #333;
+}
+
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+
+.section-half-text h1 {
+  font-size: 2rem;
+  max-width: 80%;
+}
+
+.home-container-details-room {
+  background-color: rgb(215, 211, 211);
+  padding: 70px 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+
+}
+
+.home-container-details-text {
+  align-content: center;
+  padding-top: 140px;
+  width: 50%;
+  text-align: justify;
+}
+
+.home-container-details-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.home-container-details-text h2 {
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+.home-container-details-room-button{
+  margin-top: 10px;
+  border:solid #333 2px;
+  width: 180px;
+  text-align: center;
+  border-radius: 50px;
+  font-size:1.5rem;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.home-container-details-room-button a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block; 
+  transition: 3s ease;
+}
+
+
+.home-container-details-room-button:hover{
+  transform:scale(1.02);
+  
+}
+
+
+.home-container-details-food{
+  /* background-color: #96b57d; */
+  background-color: rgb(215, 211, 211);
+  padding: 70px 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+
+}
+
+.home-container-details-image1 {
+  background-image: url('/room1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.home-container-details-food-image1{
+  background-image: url('/food1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 100px;
+  
+}
+
+.home-container-details-food-text{
+  
+  align-content: center;
+  padding-top: 140px;
+  width: 50%;
+  text-align:justify;
+  padding-left: 70px;
+
+
+}
+
+.home-container-details-food-text h1{
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.home-container-details-food-text h2{
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+.home-container-details-pool{
+  background-color: rgb(215, 211, 211);
+  padding: 70px 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+.home-container-details-pool-text{
+  align-content: center;
+  padding-top:120px;
+  width:50%;
+  text-align: justify;
+
+}
+
+.home-container-details-pool-text h1{
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.home-container-details-pool-text h2{
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+.home-container-details-pool-image1{
+  background-image: url('/pool1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 40%;
+  border-radius: 10px;
+
+}
+
+.home-container-details-pool-text-button{
+  width: 180px;
+  border:solid #000 2px;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  text-align: center;
+  padding: 7px;
+  margin-top: 10px;
+  text-decoration: none;  
+  
+}
+
+.home-container-details-button{
+  border: solid #000 2px;
+  border-radius: 50px;
+  width: 160px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 7px;
+
+}
+
+.home-container-details-button a{
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: 3s ease;
+}
+
+.home-container-details-button:hover{
+  transform: scale(1.02);
+
+}
+
+.home-container-details-pool-text-button a{
+  text-decoration: none;
+  color: #000;
+  display: inline-block; 
+  transition: 3s ease;
+
+}
+
+.home-container-details-pool-text-button:hover{
+  transform: scale(1.02);
+}
+
+
+/* ////////////////////////////////////
+///////////////////////////////////
+////////////////////////////////////
+/////////////////////////////// */
+
+
+body.colors-cleaner .home-container-details-room{
+  background-color: rgb(215, 211, 211);
+}
+
+body.colors-cleaner .home-container-details-food{
+  /* background-color: rgb(203, 194, 194); */
+    background-color: rgb(215, 211, 211);
+
+}
+
+body.colors-cleaner .home-container-details-pool{
+  background-color: rgb(215, 211, 211);
+}
+
+
+/* Hide original layout when Color Cleaner is on */
+/* body.colors-cleaner .home-container {
+  display: none;
+} */
+
+/* Show full-width hero instead */
+body.colors-cleaner .hero-image {
+  display: flex;
+}
+
+/* Default hero section is hidden */
+.hero-image {
+  display: none;
+  background-image: url('/home.webp');
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+.hero-text{
+  padding-top: 250px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
