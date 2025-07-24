@@ -8,7 +8,7 @@ const RoomCard=({room})=>{
             <h3>{room.name}</h3>
             <p>{room.description}</p>
             <p className="price">{room.price}</p>
-            <button>Book Now</button>
+          <Link to="/booking">Book Now</Link>
         </div>
     );
 };
