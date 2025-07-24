@@ -1,6 +1,6 @@
 import React from "react";
 import "./RoomCard.css";
-
+import { Link } from "react-router-dom";
 const RoomCard=({room})=>{
     return(
         <div className="room-card">
