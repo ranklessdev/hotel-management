@@ -70,6 +70,3 @@ npm start
 
 This project helped me strengthen my frontend skills and explore backend integration using Express and MySQL.  
 While my primary focus was on UI development, I took initiative to implement basic backend functionality to make the site fully functional.
-
-
-
