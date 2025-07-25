@@ -69,7 +69,7 @@ npm start
 ## 📚 Learning Outcome
 
 This project helped me strengthen my frontend skills and explore backend integration using Express and MySQL.  
-While my primary focus was on UI development, I took initiative to implement basic backend functionality to make the form fully functional.
+While my primary focus was on UI development, I took initiative to implement basic backend functionality to make the site fully functional.
 
 
 
