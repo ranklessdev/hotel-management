@@ -1,9 +1,9 @@
 
 
 ```markdown
-# Hotel Booking Form (Internship Project)
+# Hotel Management Frontend Project (Hotel-Paradise)
 
-This is a complete **frontend booking form** built using React, developed as part of an internship project.  
+This is a complete **Hotel Management Frontend Project** built using React, developed as part of an internship project.  
 The form allows users to submit hotel booking details, which are stored in a MySQL database via a basic Express backend.
 
 ## 🔧 Technologies Used
@@ -14,25 +14,11 @@ The form allows users to submit hotel booking details, which are stored in a MyS
 
 ## ✨ Features
 
-- Responsive booking form UI
-- Input fields for name, email, room type, check-in/check-out dates, and special requests
-- Form validation and clean user experience
+- Responsive UI
 - Backend API to store booking data in SQL
 - Data persistence using MySQL table
 
-## 📁 Folder Structure
 
-```
-project-root/
-├── client/           # React frontend
-│   └── BookingForm.jsx
-│   └── BookingForm.css
-├── server/           # Express backend
-│   └── server.js
-│   └── routes/
-│       └── bookingRoutes.js
-│   └── .env
-```
 
 ## 🚀 How to Run Locally
 
@@ -83,14 +69,7 @@ npm start
 ## 📚 Learning Outcome
 
 This project helped me strengthen my frontend skills and explore backend integration using Express and MySQL.  
-While my primary focus was on UI development, I took initiative to implement basic backend functionality to make the form fully functional.
+While my primary focus was on UI development, I took initiative to implement basic backend functionality to make the site fully functional.
 
-## 📜 Internship Context
 
-This project was completed as part of an unpaid internship, with a modified duration of 2 months to meet academic requirements.  
-The work was done independently and submitted for review and certification.
 
-## 📬 Contact
-
-Feel free to reach out for feedback or collaboration via GitHub Issues or Discussions.
-```
